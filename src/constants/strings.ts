@@ -1,29 +1,29 @@
 export const GAME_TITLE = process.env.REACT_APP_GAME_NAME!
 
-export const WIN_MESSAGES = ['Great Job!', 'Awesome', 'Well done!']
-export const GAME_COPIED_MESSAGE = 'Game copied to clipboard'
-export const NOT_ENOUGH_LETTERS_MESSAGE = 'Not enough letters'
-export const WORD_NOT_FOUND_MESSAGE = 'Word not found'
+export const WIN_MESSAGES = ['Сайн байлаа', 'Гайхалтай', 'Мундаг байна']
+export const GAME_COPIED_MESSAGE = 'Тоглоом хуулагдлаа'
+export const NOT_ENOUGH_LETTERS_MESSAGE = 'Цөөхөн үсэг байна'
+export const WORD_NOT_FOUND_MESSAGE = 'Үг олдсонгүй'
 export const HARD_MODE_ALERT_MESSAGE =
-  'Hard Mode can only be enabled at the start!'
+  'Хүнд түвшин зөвхөн эхлэлдээ тохируулах боломжтой'
 export const HARD_MODE_DESCRIPTION =
-  'Any revealed hints must be used in subsequent guesses'
-export const HIGH_CONTRAST_MODE_DESCRIPTION = 'For improved color vision'
+  'Илэрсэн бүх зөвлөмжийг дараагийн таамаглалд ашиглах ёстой'
+export const HIGH_CONTRAST_MODE_DESCRIPTION = 'Өнгөний харааг сайжруулах зорилгоор'
 export const CORRECT_WORD_MESSAGE = (solution: string) =>
-  `The word was ${solution}`
+  `Таах ёстой байсан үг ${solution}`
 export const WRONG_SPOT_MESSAGE = (guess: string, position: number) =>
   `Must use ${guess} in position ${position}`
 export const NOT_CONTAINED_MESSAGE = (letter: string) =>
   `Guess must contain ${letter}`
-export const ENTER_TEXT = 'Enter'
-export const DELETE_TEXT = 'Delete'
-export const STATISTICS_TITLE = 'Statistics'
-export const GUESS_DISTRIBUTION_TEXT = 'Guess Distribution'
-export const NEW_WORD_TEXT = 'New word in'
-export const SHARE_TEXT = 'Share'
-export const TOTAL_TRIES_TEXT = 'Total tries'
-export const SUCCESS_RATE_TEXT = 'Success rate'
-export const CURRENT_STREAK_TEXT = 'Current streak'
-export const BEST_STREAK_TEXT = 'Best streak'
+export const ENTER_TEXT = 'Болсон'
+export const DELETE_TEXT = 'Устгах'
+export const STATISTICS_TITLE = 'Статистик'
+export const GUESS_DISTRIBUTION_TEXT = 'Таах чадвар'
+export const NEW_WORD_TEXT = 'Шинэ үг'
+export const SHARE_TEXT = 'Хуваалцах'
+export const TOTAL_TRIES_TEXT = 'Нийт оролдлого'
+export const SUCCESS_RATE_TEXT = 'Амжилтын хувь'
+export const CURRENT_STREAK_TEXT = 'Одоогийн амжилт'
+export const BEST_STREAK_TEXT = 'Дээд амжилт'
 export const DISCOURAGE_INAPP_BROWSER_TEXT =
-  "You are using an embedded browser and may experience problems sharing or saving your results. We encourage you rather to use your device's default browser."
+  "Та суулгагдсан хөтөч ашиглаж байгаа бөгөөд илэрцээ хуваалцах эсвэл хадгалахад асуудал гарч болзошгүй. Бид таныг төхөөрөмжийнхөө үндсэн хөтөчийг ашиглахыг зөвлөж байна.."
