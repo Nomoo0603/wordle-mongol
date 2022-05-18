@@ -27,7 +27,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="Н" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-      Ө үсэг нь буруу үгийн зөв газарт байна.
+      Ө үсэг нь буруу үгийн зөв газарт байна. 
       </p>
       
 
