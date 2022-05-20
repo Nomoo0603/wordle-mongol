@@ -29,7 +29,7 @@ import {
 import { addStatsForCompletedGame, loadStats } from './lib/stats'
 import {
   loadGameStateFromLocalStorage,
-  saveGameStateToLocalStorage,
+  // saveGameStateToLocalStorage,
   setStoredIsHighContrastMode,
   getStoredIsHighContrastMode,
 } from './lib/localStorage'
@@ -155,7 +155,7 @@ function App() {
   }
 
   useEffect(() => {
-    saveGameStateToLocalStorage({ guesses, solution })
+    // saveGameStateToLocalStorage({ guesses, solution })
   }, [guesses])
 
   useEffect(() => {
@@ -264,6 +264,9 @@ function App() {
         setIsSettingsModalOpen={setIsSettingsModalOpen}
       />
       <div className="pt-2 px-1 pb-8 md:max-w-7xl w-full mx-auto sm:px-6 lg:px-8 flex flex-col grow">
+        {/* <div>    <h1> Амьтанг таагаарай </h1> */}
+
+
         <div className="pb-6 grow">
           <Grid
             solution={solution}
@@ -311,7 +314,8 @@ function App() {
         />
         <AlertContainer />
       </div>
-    </div>
+      </div>
+    // </div>
   )
 }
 
