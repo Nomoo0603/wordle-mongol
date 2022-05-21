@@ -1,4 +1,6 @@
-export const GAME_TITLE = process.env.REACT_APP_GAME_NAME!
+export const GAME_TITLE = 'Амьтаныг таагаарай.'
+//export const GAME_TITLE = process.env.REACT_APP_GAME_NAME!
+
 
 export const WIN_MESSAGES = ['Сайн байлаа', 'Гайхалтай', 'Мундаг байна']
 export const GAME_COPIED_MESSAGE = 'Тоглоом хуулагдлаа'
