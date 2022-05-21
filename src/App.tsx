@@ -94,20 +94,21 @@ function App() {
       ? localStorage.getItem('gameMode') === 'hard'
       : false
   )
-
-  useEffect(() => {
     // if no game state on load,
     // show the user the how-to info modal
-    if (!loadGameStateFromLocalStorage()) {
 
-      setTimeout(() => {
-        setIsInfoModalOpen(true)
-      }, WELCOME_INFO_MODAL_MS)
+  // useEffect(() => {
+  
+  //   if (!loadGameStateFromLocalStorage()) {
+
+  //     setTimeout(() => {
+  //       setIsInfoModalOpen(true)
+  //     }, WELCOME_INFO_MODAL_MS)
       
-    }
+  //   }
 
 
-  })
+  // })
 
   useEffect(() => {
     DISCOURAGE_INAPP_BROWSERS &&
