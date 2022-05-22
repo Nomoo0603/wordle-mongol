@@ -78,8 +78,8 @@ export const getWordOfDay = () => {
   // January 1, 2022 Game Epoch
   let index = 0;
 
-  setTimeout(function(){   
-  index = Math.floor((Math.random()*30)+1); 
+  setTimeout(() => {   
+  index = Math.floor(Math.random() * 30) + 1; 
   }, 5000);
 
 
@@ -87,11 +87,11 @@ export const getWordOfDay = () => {
 return {
     solution: localeAwareUpperCase(WORDS[index % WORDS.length]),
     solutionIndex: index,
-    tomorrow: nextDay.valueOf(),
+    // tomorrow: nextDay.valueOf(),
   }
   
 
 
 }
 
-export const { solution, solutionIndex, tomorrow } = getWordOfDay()
+export const { solution, solutionIndex} = getWordOfDay()
