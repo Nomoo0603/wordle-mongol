@@ -77,7 +77,7 @@ export const StatsModal = ({
 
             <Countdown
               className="text-lg font-medium text-gray-900 dark:text-gray-100"
-              date={tomorrow}
+              date={10}
               daysInHours={true}
             />
 
