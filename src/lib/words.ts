@@ -76,14 +76,11 @@ export const localeAwareUpperCase = (text: string) => {
 
 export const getWordOfDay = () => {
   // January 1, 2022 Game Epoch
-  var index;
-  function getRandom(): number {
-  return Math.floor(Math.random() * 30) + 1;
-}  
-  
-  setTimeout(getRandom() = index{
-  location.reload();
-  }, 3000);
+  let index = 0;
+
+  setTimeout(function(){   
+  index = Math.floor((Math.random()*30)+1); 
+  }, 5000);
 
 
 
