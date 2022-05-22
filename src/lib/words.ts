@@ -79,7 +79,7 @@ export const getWordOfDay = () => {
   const epoch = new Date(2022, 0)
   const start = new Date(epoch)
   const today = new Date()
-  today.setHours(0, 0, 0, 0)
+  today.setHours(23, 59, 55, 0)
   let index = 0
   while (start < today) {
     index++
