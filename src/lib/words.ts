@@ -83,7 +83,7 @@ export const getWordOfDay = () => {
   let index = 0
   while (start < today) {
     index++
-    start.setDate(start.getSeconds() + 10)
+    start.setDate(start.getDate())
   }
 
  // const nextDay = new Date(today)
