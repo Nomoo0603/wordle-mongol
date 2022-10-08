@@ -1,3 +1,3 @@
-npm install
+#Wordle Game on Mongolian version. 
 
-npm run start
+Made for tiny games. 
